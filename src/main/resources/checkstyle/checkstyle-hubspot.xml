@@ -107,6 +107,7 @@
     <!-- Checks that there are newlines between various tokens -->
     <module name="EmptyLineSeparator">
       <property name="allowNoEmptyLineBetweenFields" value="true"/>
+      <property name="tokens" value="PACKAGE_DEF, IMPORT, CLASS_DEF, ENUM_DEF, INTERFACE_DEF, CTOR_DEF, STATIC_INIT, INSTANCE_INIT"/>
     </module>
 
     <module name="SeparatorWrap">
