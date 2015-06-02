@@ -139,6 +139,9 @@
       <property name="exceptionVariableName" value="expected|ignored"/>
     </module>
 
+    <!-- Checks that hashCode is overridden when equals is -->
+    <module name="EqualsHashCode"/>
+
     <!-- Checks that everything is named appropriately -->
     <module name="PackageName"/>
     <module name="TypeName"/>
