@@ -18,7 +18,7 @@
     <groupId>org.basepom</groupId>
     <artifactId>basepom-policy</artifactId>
     <packaging>jar</packaging>
-    <version>5-SNAPSHOT</version>
+    <version>5-hubspot-SNAPSHOT</version>
     <name>basepom-policy</name>
     <description>
         Minimum set of policy applied by the basepom code.
