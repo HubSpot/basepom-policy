@@ -159,14 +159,14 @@
     <module name="PackageName"/>
     <module name="TypeName"/>
     <module name="ClassTypeParameterName">
-      <property name="format" value="^[A-Z0-9_]+$"/>
+      <property name="format" value="^[A-Z][A-Z0-9_]*$"/>
     </module>
     <module name="InterfaceTypeParameterName">
-      <property name="format" value="^[A-Z0-9_]+$"/>
+      <property name="format" value="^[A-Z][A-Z0-9_]*$"/>
     </module>
     <module name="MethodName"/>
     <module name="MethodTypeParameterName">
-      <property name="format" value="^[A-Z0-9_]+$"/>
+      <property name="format" value="^[A-Z][A-Z0-9_]*$"/>
     </module>
     <module name="ConstantName"/>
     <module name="StaticVariableName"/>
