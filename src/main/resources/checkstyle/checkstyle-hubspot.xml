@@ -158,10 +158,16 @@
     <!-- Checks that everything is named appropriately -->
     <module name="PackageName"/>
     <module name="TypeName"/>
-    <module name="ClassTypeParameterName"/>
-    <module name="InterfaceTypeParameterName"/>
+    <module name="ClassTypeParameterName">
+      <property name="format" value="^[A-Z_]+$"/>
+    </module>
+    <module name="InterfaceTypeParameterName">
+      <property name="format" value="^[A-Z_]+$"/>
+    </module>
     <module name="MethodName"/>
-    <module name="MethodTypeParameterName"/>
+    <module name="MethodTypeParameterName">
+      <property name="format" value="^[A-Z_]+$"/>
+    </module>
     <module name="ConstantName"/>
     <module name="StaticVariableName"/>
     <module name="MemberName"/>
