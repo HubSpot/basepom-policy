@@ -77,6 +77,17 @@
     <!-- Checks that package definitions and imports don't wrap lines -->
     <module name="NoLineWrap"/>
 
+    <!-- Makes sure that whitespace around generics is valid -->
+    <module name="GenericWhitespace"/>
+
+    <module name="WhitespaceAround">
+      <property name="allowEmptyConstructors" value="true"/>
+      <property name="allowEmptyMethods" value="true"/>
+      <property name="allowEmptyTypes" value="true"/>
+      <property name="allowEmptyLoops" value="true"/>
+      <property name="ignoreEnhancedForColon" value="false"/>
+    </module>
+
     <!-- Checks that these blocks have some text inside -->
     <module name="EmptyBlock">
       <property name="option" value="TEXT"/>
