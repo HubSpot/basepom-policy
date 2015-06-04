@@ -175,5 +175,7 @@
     <module name="ParameterName"/>
     <module name="LocalVariableName"/>
     <module name="LocalFinalVariableName"/>
+    <module name="MissingOverride"/>
+    
   </module>
 </module>
