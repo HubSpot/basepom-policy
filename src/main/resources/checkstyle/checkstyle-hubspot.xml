@@ -51,6 +51,7 @@
     <!-- See http://checkstyle.sf.net/config_import.html -->
     <module name="AvoidStarImport"/>
     <module name="RedundantImport"/>
+    <module name="UnusedImports"/>
 
     <!-- Modifier Checks                                    -->
     <!-- See http://checkstyle.sf.net/config_modifiers.html -->
