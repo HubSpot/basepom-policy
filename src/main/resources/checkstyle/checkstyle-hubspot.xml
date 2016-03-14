@@ -190,5 +190,12 @@
       <property name="tagSeverity" value="error" />
       <message key="javadoc.writeTag" value="{0} tag is not allowed" />
     </module>
+    
+    <!-- No calls to System.out.println - ignoring comments -->
+    <module name="Regexp">
+      <property name="format" value="System\.out\.println" />
+      <property name="illegalPattern" value="true" />
+      <property name="ignoreComments" value="true" />
+    </module>
   </module>
 </module>
