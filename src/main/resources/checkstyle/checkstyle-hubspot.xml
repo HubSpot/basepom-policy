@@ -58,6 +58,7 @@
     <module name="SuppressWithNearbyCommentFilter">
       <property name="commentFormat" value="SUPPRESS CHECKSTYLE FOR NEXT (\d+) LINES (\w+)"/>
       <property name="influenceFormat" value="$1"/>
+      <property name="checkFormat" value="$2"/>
     </module>
 
     <!-- Checks for imports                              -->
